@@ -1,7 +1,6 @@
+# Muhammad Ammad Ismail - Portfolio
 
-# Portfolio Website
-
-Welcome to my personal portfolio website! This is a showcase of my projects, skills, and professional journey as a developer.
+Welcome to my portfolio! I'm a passionate Deep Learning Engineer with a strong background in artificial intelligence and machine learning, specializing in computer vision and predictive modeling.
 
 ## 🌐 Live Demo
 
@@ -9,29 +8,76 @@ Visit my portfolio: **[https://muhammadammadismail.github.io](https://muhammadam
 
 ## 📋 About
 
-This portfolio website features:
+This portfolio showcases my work in:
 
-- **Modern Design**: Clean, professional interface with smooth animations
-- **Responsive Layout**: Optimized for all devices - desktop, tablet, and mobile
-- **Project Showcase**: Highlighted projects with descriptions and technologies used
-- **About Section**: Information about my background, skills, and expertise
-- **Contact Links**: Easy ways to connect via email and social media
+- **Computer Vision**: YOLOv5/v7-based object detection systems for medical imaging and safety applications
+- **Machine Learning**: Predictive models using XGBoost, Random Forest, and ensemble methods
+- **Data Science**: Time-series analysis, feature engineering, and interactive data dashboards
+- **Deep Learning**: Custom neural network architectures for real-world problem solving
 
-## 🛠️ Technologies Used
+## 🚀 Featured Projects
 
-- HTML5
-- CSS3 (with custom animations and transitions)
-- Vanilla JavaScript
-- Google Fonts (Playfair Display, DM Sans)
+### 1. Dental Implant Detection
+Advanced computer vision tool that identifies dental implant types in radiograph images using a YOLOv7-based model.
 
-## 🚀 Features
+- **Tech Stack**: YOLOv7, Python, Computer Vision, Medical Imaging
+- **Dataset**: ~2000 X-ray images
+- **Features**: Real-time detection, custom GUI, multi-class classification
+- **Repository**: [Dental-_Implant_Detection](https://github.com/MuhammadAmmadIsmail/Dental-_Implant_Detection)
 
-- Smooth scrolling navigation
-- Scroll-triggered reveal animations
-- Interactive hover effects
-- Mobile-first responsive design
-- Clean, semantic HTML structure
-- Performance optimized
+### 2. Fire Detection and Localization
+Robust real-time computer vision system designed to automatically detect and localize fire and smoke using fine-tuned YOLOv5.
+
+- **Tech Stack**: YOLOv5, OpenCV, Python, Real-time Processing
+- **Features**: Desktop application, live camera feed, automated alerts
+- **Use Case**: Safety-critical systems for fire prevention
+- **Repository**: [Fire-Detection-and-Localization-](https://github.com/MuhammadAmmadIsmail/Fire-Detection-and-Localization-)
+
+### 3. NFL Big Data Bowl 2026
+Machine learning project for NFL passing prediction using XGBoost ensemble with time-based cross-validation.
+
+- **Tech Stack**: XGBoost, Pandas, NumPy, Polars, Kaggle API
+- **Features**: Feature engineering, kinematic analysis, week-wise dataset assembly
+- **Performance**: ~1.14 RMSE on cross-validation
+- **Repository**: [machine-learning-project](https://github.com/3aLaee/machine-learning-project)
+
+### 4. Geothermal Plant Seismic Monitoring
+Data science project analyzing the correlation between geothermal plant operations and seismic activity.
+
+- **Tech Stack**: Random Forest, React, Chart.js, Python, Pandas
+- **Features**: Interactive dashboards, ML magnitude prediction, risk assessment
+- **Data**: 378 seismic events merged with 695,625 operational records
+- **Repository**: [project_datascience_secondYear](https://github.com/kiflomhailu/project_datascience_secondYear)
+
+## 🛠️ Technologies & Skills
+
+### Deep Learning & AI
+- **Computer Vision**: YOLOv5, YOLOv7, Object Detection, Image Classification
+- **Frameworks**: TensorFlow, PyTorch, Keras
+- **Libraries**: OpenCV, scikit-image
+
+### Machine Learning
+- **Algorithms**: XGBoost, Random Forest, Gradient Boosting, LightGBM, CatBoost
+- **Techniques**: Time-series Analysis, Feature Engineering, Ensemble Methods
+- **Libraries**: scikit-learn, XGBoost, LightGBM
+
+### Data Science & Analytics
+- **Data Processing**: Pandas, NumPy, Polars
+- **Visualization**: Matplotlib, Seaborn, Chart.js, Plotly
+- **Dashboards**: React, HTML5/CSS3, Interactive Visualizations
+
+### Programming & Tools
+- **Languages**: Python, JavaScript, SQL
+- **Tools**: Jupyter Notebook, Git, Docker
+- **Platforms**: Kaggle, Google Colab
+
+## 🌟 Portfolio Features
+
+- **Professional Design**: Modern, clean interface with elegant animations
+- **Responsive Layout**: Seamlessly adapts to all screen sizes
+- **Project Showcase**: 4 featured projects with detailed descriptions and GitHub links
+- **About Section**: Professional background and comprehensive skills list
+- **Easy Contact**: Direct links to email, GitHub, and LinkedIn
 
 ## 📂 Project Structure
 
@@ -53,12 +99,12 @@ To view this project locally:
 
 That's it! No build process or dependencies required.
 
-## 📱 Sections
+## 📱 Portfolio Sections
 
-- **Hero**: Introduction and call-to-action
-- **About**: Personal background and skills
-- **Projects**: Featured work and case studies
-- **Contact**: Ways to get in touch
+- **Hero**: Professional title and introduction with call-to-action
+- **About**: Background as a Deep Learning Engineer with technical skills
+- **Projects**: 4 featured projects spanning computer vision, ML, and data science
+- **Contact**: Professional networking links
 
 ## 🤝 Connect With Me
 
