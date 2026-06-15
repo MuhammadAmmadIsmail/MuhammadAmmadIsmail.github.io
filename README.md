@@ -88,16 +88,35 @@ Data science project analyzing the correlation between geothermal plant operatio
 
 ## 💻 Local Development
 
-To view this project locally:
+To view this project locally with the Python backend:
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/MuhammadAmmadIsmail/MuhammadAmmadIsmail.github.io.git
    ```
 
-2. Open `index.html` in your web browser
+2. Create and activate a Python virtual environment:
+   ```bash
+   python -m venv venv
+   # Windows
+   venv\Scripts\activate
+   # macOS / Linux
+   source venv/bin/activate
+   ```
 
-That's it! No build process or dependencies required.
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the backend server:
+   ```bash
+   python app.py
+   ```
+
+5. Open `http://127.0.0.1:5000` in your browser.
+
+Messages submitted through the contact form are saved to the `messages/` folder.
 
 ## 📱 Portfolio Sections
 
