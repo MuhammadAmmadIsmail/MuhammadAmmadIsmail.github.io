@@ -82,9 +82,16 @@ Data science project analyzing the correlation between geothermal plant operatio
 ## 📂 Project Structure
 
 ```
+├── app.py             # Python Flask backend
 ├── index.html         # Main portfolio page
-└── README.md          # Project documentation
+├── projects.json      # Project data source for the portfolio
+├── README.md          # Project documentation
+└── requirements.txt   # Python dependencies
 ```
+
+### Managing Projects
+
+Add or remove entries in `projects.json` to update the project list. Each project renders as an in-page article with a built-in details preview.
 
 ## 💻 Local Development
 

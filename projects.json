@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Dental Implant Detection",
+    "description": "A computer vision system that detects dental implant types in X-ray images using a YOLOv7-based model.",
+    "image": "images/img1.png",
+    "tags": ["YOLOv7", "Computer Vision", "Medical Imaging", "Python"],
+    "highlights": [
+      "Custom object detection pipeline for dental implants",
+      "Trained on 2000+ radiograph images",
+      "Includes classification and localization output"
+    ],
+    "future": "Expand to additional dental device classes and deploy as a web-based demo.",
+    "github": "https://github.com/MuhammadAmmadIsmail/Dental-_Implant_Detection"
+  },
+  {
+    "title": "Fire Detection & Localization",
+    "description": "Real-time fire and smoke detection system using YOLOv5 and OpenCV to support safety monitoring workflows.",
+    "image": "images/img2.png",
+    "tags": ["YOLOv5", "Real-time Detection", "Safety Systems", "OpenCV"],
+    "highlights": [
+      "Live camera frame processing with alerts",
+      "Fine-tuned detection model for fire and smoke",
+      "Desktop interface for fast deployment"
+    ],
+    "future": "Integrate with IoT alert systems and mobile notifications.",
+    "github": "https://github.com/MuhammadAmmadIsmail/Fire-Detection-and-Localization-"
+  },
+  {
+    "title": "NFL Big Data Bowl 2026",
+    "description": "Predictive analytics model for NFL passing performance using XGBoost and time-aware feature engineering.",
+    "image": "images/img3.jpg",
+    "tags": ["XGBoost", "Time-series", "Feature Engineering", "Kaggle"],
+    "highlights": [
+      "Time-based cross-validation for robust scoring",
+      "Engineered game-state and kinematic features",
+      "Optimized model pipeline for predictive accuracy"
+    ],
+    "future": "Deploy a dashboard for interactive game-data exploration.",
+    "github": "https://github.com/3aLaee/machine-learning-project"
+  },
+  {
+    "title": "Geothermal Seismic Monitoring",
+    "description": "Data science analysis correlating geothermal operations with seismic activity, including risk modeling and dashboards.",
+    "image": "images/img4.png",
+    "tags": ["Random Forest", "Data Analytics", "Dashboard", "Time-series"],
+    "highlights": [
+      "Merged operational and seismic datasets",
+      "Built ML models for magnitude prediction",
+      "Created visualizations for risk assessment"
+    ],
+    "future": "Add anomaly detection and operational optimization modules.",
+    "github": "https://github.com/kiflomhailu/project_datascience_secondYear"
+  }
+]

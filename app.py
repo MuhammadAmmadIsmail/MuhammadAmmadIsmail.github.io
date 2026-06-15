@@ -2,8 +2,9 @@ from flask import Flask, jsonify, request, send_from_directory
 from pathlib import Path
 from datetime import datetime
 import re
+import json
 
-app = Flask(__name__, static_folder='')
+app = Flask(__name__, static_folder='.', static_url_path='/')
 
 MESSAGE_DIR = Path(__file__).resolve().parent / 'messages'
 MESSAGE_DIR.mkdir(exist_ok=True)
@@ -14,6 +15,15 @@ def safe_filename(value: str) -> str:
 @app.route('/')
 def serve_index():
     return send_from_directory('.', 'index.html')
+
+@app.route('/projects.json')
+def serve_projects():
+    try:
+        with open('projects.json', 'r', encoding='utf-8') as f:
+            projects = json.load(f)
+        return jsonify(projects)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 @app.route('/api/contact', methods=['POST'])
 def contact():
